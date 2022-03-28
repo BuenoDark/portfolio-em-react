@@ -3,7 +3,7 @@ import Award from "../../img/awards.jpg"
 
 const About = () => {
     return (
-        <div className="About">
+        <div className="About" id="about">
             <div className="a-left">
                 <div className="a-card bg"></div>
                 <div className="a-card">

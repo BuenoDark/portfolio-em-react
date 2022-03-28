@@ -17,16 +17,20 @@
     height: 50%;
     display: flex;
     flex-direction: column;
+    margin: 120px;
+    margin-top: 20px;
     justify-content: space-between;
 }
 
 .i-intro {
     font-size: 30px;
     font-weight: 300;
+
+    
 }
 
 .i-name {
-    font-size: 60px;
+    font-size: 62px;
 }
 
 .i-title {
@@ -72,7 +76,7 @@
 
 .i-bg {
     clip-path: circle(50% at 50% 50%);
-    background-color: #59b256;
+    background-color: #261cb4;
     width: 100%;
     height: 100%;
     position: absolute;

@@ -3,6 +3,7 @@ import Me from "../../img/me.png"
 
 const Intro = () =>{
     return (
+        <div className="intro" id ='intro'>
         <div className="in">
             <div className="in-left">
                 <div className="i-left-wrapper">
@@ -28,6 +29,7 @@ const Intro = () =>{
                 <div className="i-bg"></div>
                 <img src={Me} alt="" className="i-img" />
             </div>
+        </div>
         </div>
     )
 }
