@@ -7,7 +7,9 @@ import Toggle from "./comp/toggle/toggle";
 import { ThemeContext } from "./context";
 import Topbar from "./comp/navbar/topbar";
 
+
 function App() {
+
   const theme = useContext(ThemeContext);
   const darkMode = theme.state.darkMode;
   return <div style={{ backgroundColor: darkMode ? "#222" : "white", color: darkMode && "white" }}>

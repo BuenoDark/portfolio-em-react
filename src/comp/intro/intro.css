@@ -1,3 +1,42 @@
+
+
+header{
+    position:relative;
+}
+
+.waves {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0px;
+    max-width: 1500px;
+    
+
+}
+
+.waves-1 {
+    animation: move-forever -2s 7s ease-in-out infinite alternate;
+}
+
+@keyframes move-forever {
+  0% {
+      transform: translate3d(-90px,0,0);
+  }
+  100% {
+      transform: translate3d(85px,0,0);
+  }
+    
+}
+.waves-2 {
+    animation: move-forever -3s 10s ease-in-out infinite alternate;
+}
+
+
+.waves-3 {
+    animation: move-forever -4s 13s ease-in-out infinite alternate;
+}
+
+
 .in {
     display: flex;
     height: 100vh;
